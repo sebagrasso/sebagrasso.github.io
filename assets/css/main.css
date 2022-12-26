@@ -124,7 +124,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1em 0;
 		text-align: justify;
 	}
 
@@ -2011,7 +2011,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -3222,6 +3222,10 @@ button,
 				width: 100%;
 			}
 
+			iframe {
+				max-width: 620px;
+			}
+
 		/* Header */
 
 			#header {
@@ -3311,6 +3315,10 @@ button,
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+			iframe {
+				max-width: 340px;
 			}
 
 		/* List */
