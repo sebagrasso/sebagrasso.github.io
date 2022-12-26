@@ -240,16 +240,33 @@
 								<section id="ML">
 									<div class="container">
 										<h2>Machine Learning</h2>
-										<h6>In uploading progress..</h6>
-										<!-- <div class="features">
+										<div class="features">
 											<article>
 												<a href="#" target = "blank" class="image"><img src="images/pic01.png" alt="" /></a>
-												<div class="inner">
-													<h4>Algoritmic Linear Regression</h4></a>
-													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-												</div>
+												<h4>Algoritmic Linear Regression</h4></a>
+												<p>This is a tiny part of a huge algorithm for trading in stock market. The global functioning is to 
+													download/update stock prices from some finance api, of a long list of tickers (the most valuables companies in terms of estimated
+													market cap) and understand them through correlations, traditional tech analysis, ML and NLP from news and social net, 
+													in order to make decisions to improve investments.
+													<br>
+													The fragment that I am sharing in this case is an algorithm that automatically makes the following operations:
+													<ul>
+														<li>Feature selection using kbest, and correlations with different pearson coefficients.</li>
+														<li>Scaling transformations (or not): StandardScaler, MinMaxScaler, Normalizer and no scaling.</li>
+														<li>ML Regression models instatiation (Linear, Ridge, BayesianRidge, Lasso, ElasticNet, SVR, SGD, DesicionTree, 
+															RandomForest, Polynomic and Kneighbors).</li>
+														<li>Hyper parameters optimization using GridSearchCV.</li>
+														<li>Train-Test proportion optimization.</li>
+														<li>ML Regression models training and scoring.</li>
+														<li>Report results.</li>
+													</ul>													
+													The image below is a <b>dynamic chart</b> showing the behaviour of most of regression models from Sklearn on this dataset.
+													Bubble sizes represents the number of features (correlated tickers with target) used to explain the target ticker.
+													<br>
+													<i>Note: Single click on legend toggles on-off that model. Double click selects only one model or resets filters.</i></p>
+												<iframe src="notebooks/algo_ml_reg/RegML_algo_results.html" alignment = "center" width="780" height="620"></iframe>
 											</article>
-										</div> -->
+										</div>
 									</div>
 									<a href="#work" class="button icon solid solo fa-arrow-up scrolly">Back to Work</a>									
 								</section>
