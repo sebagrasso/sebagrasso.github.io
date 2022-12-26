@@ -123,8 +123,8 @@
 									<nav id="subnav">
 										<ul>
 											<li><a href="#webscraping">Web Scraping</a></li>
+											<li><a href="#ML">Machine Learning</a></li>											
 											<li><a href="#graphs">Graphs</a></li>											
-											<li><a href="#ML">Machine Learning</a></li>
 											<li><a href="#EMBA">Executive MBA</a></li>
 											<li><a href="#O&G">Oil & Gas</a></li>
 											<li><a href="#scripts">Scripts</a></li>
@@ -135,29 +135,30 @@
 
 								<section id="webscraping">
 									<div class="container">
-										<h2>Webscrapping</h2>
+										<h2>Web scraping | Programming</h2>
 										<div class="features">
 											<article>
 												<a href="https://github.com/sebagrasso/LinkedIn-Job-Search/blob/main/linkedin.ipynb" target = "blank" class="image"><img src="images/link.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://github.com/sebagrasso/LinkedIn-Job-Search/blob/main/linkedin.ipynb" target = "blank"><h4>LinkedIn Job Search</h4></a>
-													<p>Notebook with python code to get job publications from LinkedIn and analyse them in order to understand most important skills required for the desired position.</p>
+													<a href="https://github.com/sebagrasso/LinkedIn-Job-Search/blob/main/linkedin.ipynb" target = "blank"><h4>LinkedIn Job Search</h4>
+													<p>Notebook with python code to get job publications from LinkedIn and analyse them in order to understand most important 
+														skills required for the desired position.</p></a>
 												</div>
 											</article>											
 											<article>
 												<!-- <a href="https://nbviewer.org/github/sebagrasso/Ryanair/blob/main/ryanair_ESP.ipynb" target = "blank" class="image"><img src="images/ryan.png" alt="" /></a> -->
 												<a href="https://github.com/sebagrasso/Ryanair/blob/main/ryanair_ESP.ipynb" target = "blank" class="image"><img src="images/ryan.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://github.com/sebagrasso/Ryanair/blob/main/ryanair_ESP.ipynb" target = "blank"><h4>Ryanair Flights Search</h4></a>
+													<a href="https://github.com/sebagrasso/Ryanair/blob/main/ryanair_ESP.ipynb" target = "blank"><h4>Ryanair Flights Search</h4>
 													<p>As the frequent traveller that I am, I made this python app using Selenium Library, to have it as a tool to find better flights oportunities. 
-														There is a header where you can set flights characteristics and you will get a summary with current available options.</p>
+														There is a header where you can set flights characteristics and you will get a summary with current available options.</p></a>
 												</div>
 											</article>
 											<article>
 												<a href="https://github.com/sebagrasso/DF_Webscrapping_Nan_Filling/blob/main/webscrapping_pandas.ipynb" target = "blank" class="image"><img src="images/nan.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://github.com/sebagrasso/DF_Webscrapping_Nan_Filling/blob/main/webscrapping_pandas.ipynb" target = "blank"><h4>Pandas DF Null values filling</h4></a>
-													<p>Python code using Jupyter Notebook, Pandas and Selenium, to fill DataFrame's null location values, considering given X, Y coordinates, from Google Maps.</p>
+													<a href="https://github.com/sebagrasso/DF_Webscrapping_Nan_Filling/blob/main/webscrapping_pandas.ipynb" target = "blank"><h4>Pandas DF Null values filling</h4>
+													<p>Python code using Jupyter Notebook, Pandas and Selenium, to fill DataFrame's null location values, considering given X, Y coordinates, from Google Maps.</p></a>
 												</div>												
 											</article>
 										</div>
@@ -165,6 +166,39 @@
 									<a href="#work" class="button icon solid solo fa-arrow-up scrolly">Back to Work</a>									
 								</section>
 
+								<section id="ML">
+									<div class="container">
+										<h2>Machine Learning</h2>
+										<div class="features">
+											<article>
+												<a href="#" target = "blank"><h4>Algoritmic Linear Regression</h4>
+												<p>This is a tiny part of a huge algorithm for trading in stock market. The global functioning is to 
+													download/update stock prices from some finance api, of a long list of tickers (the most valuables companies in terms of estimated
+													market cap) and understand them through correlations, traditional tech analysis, ML and NLP from news and social net, 
+													in order to make decisions to improve investments.
+													<br>
+													The fragment that I am sharing in this case is an algorithm that automatically makes the following operations:
+													<ul>
+														<li>Feature selection using kbest, and correlations with different pearson coefficients.</li>
+														<li>Scaling transformations (or not): StandardScaler, MinMaxScaler, Normalizer and no scaling.</li>
+														<li>ML Regression models instatiation (Linear, Ridge, BayesianRidge, Lasso, ElasticNet, SVR, SGD, DesicionTree, 
+															RandomForest, Polynomic and Kneighbors).</li>
+														<li>Hyper parameters optimization using GridSearch - Cross Validation.</li>
+														<li>Train-Test proportion optimization.</li>
+														<li>ML Regression models training and scoring.</li>
+														<li>Report results.</li>
+													</ul>													
+													The image below is a <b>dynamic chart</b> showing the behaviour of most of regression models from Sklearn on this dataset.
+													Bubble sizes represents the number of features (correlated tickers with target) used to explain the target ticker.
+													<br>
+													<i>Note: Single click on legend toggles on-off that model. Double click selects only one model or resets filters.</i></p></a>
+												<iframe src="notebooks/algo_ml_reg/RegML_algo_results.html" alignment = "center" width="780" height="620"></iframe>
+											</article>
+										</div>
+									</div>
+									<a href="#work" class="button icon solid solo fa-arrow-up scrolly">Back to Work</a>									
+								</section>
+								
 								<section id="graphs">
 									<div class="container">
 										<h2>Graphs and Charts</h2>
@@ -178,24 +212,24 @@
 											<article>
 											<a href="https://github.com/sebagrasso/Area-plots/blob/main/Area_squarify.ipynb" target = "blank" class="image"><img src="images/Amazon_Balance_2020-2021.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://github.com/sebagrasso/Area-plots/blob/main/Area_squarify.ipynb" target = "blank"><h4>Area Chart</h4></a>
-													<p>How to use squarify library to create area plots. In this case very usefull tool to compare financial balances.</p>
+													<a href="https://github.com/sebagrasso/Area-plots/blob/main/Area_squarify.ipynb" target = "blank"><h4>Area Chart</h4>
+													<p>How to use squarify library to create area plots. In this case very usefull tool to compare financial balances.</p></a>
 												</div>
 											</article>
 
 											<article>
 												<a href="https://github.com/sebagrasso/Stats-Map/blob/main/Stats_Maps.ipynb" target = "blank" class="image"><img src="images/statsmap.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://github.com/sebagrasso/Stats-Map/blob/main/Stats_Maps.ipynb" target = "blank"><h4>Statistic Map</h4></a>
-													<p>Python code to create a region map coloured with statistics. In this example we analyse capsule coffee consumption in Spain.</p>
+													<a href="https://github.com/sebagrasso/Stats-Map/blob/main/Stats_Maps.ipynb" target = "blank"><h4>Statistic Map</h4>
+													<p>Python code to create a region map coloured with statistics. In this example we analyse capsule coffee consumption in Spain.</p></a>
 												</div>
 											</article>
 
 											<article>
 												<a href="https://github.com/sebagrasso/Wordcloud/blob/main/wordcloud.ipynb" target = "blank" class="image"><img src="images/wordcloud.png" alt="" /></a>
 													<div class="inner">
-														<a href="https://github.com/sebagrasso/Wordcloud/blob/main/wordcloud.ipynb" target = "blank"><h4>Wordcloud</h4></a>
-													<p>Python code to create an amazing wordcloud, using single or multiple text files and an image as bakground mask.</p>
+														<a href="https://github.com/sebagrasso/Wordcloud/blob/main/wordcloud.ipynb" target = "blank"><h4>Wordcloud</h4>
+													<p>Python code to create an amazing wordcloud, using single or multiple text files and an image as bakground mask.</p></a>
 													</div>
 											</article>			
 
@@ -203,7 +237,7 @@
 												<a href="https://github.com/sebagrasso/Wordcloud/blob/main/XXXXXXXXX.ipynb" target = "blank" class="image"><img src="images/pic01.png" alt="" /></a>
 												<div class="inner">
 													<h4>Dynamic Plot MPL</h4>
-													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p></a>
 												</div>
 											</article>
 
@@ -211,25 +245,25 @@
 												<a href="https://github.com/sebagrasso/Wordcloud/blob/main/XXXXXXXXX.ipynb" target = "blank" class="image"><img src="images/pic01.png" alt="" /></a>
 												<div class="inner">
 													<h4>Correlations</h4>
-													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p></a>
 												</div>
 											</article> -->
 
 											<article>
 												<a href="https://public.tableau.com/app/profile/sebagrasso/viz/UnconventionalHydrocarbonProductionArgentina/PRODUCTIONSUM" target = "blank" class="image"><img src="images/dash1.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://public.tableau.com/app/profile/sebagrasso/viz/UnconventionalHydrocarbonProductionArgentina/PRODUCTIONSUM" target = "blank"><h4>Tableau</h4></a>
+													<a href="https://public.tableau.com/app/profile/sebagrasso/viz/UnconventionalHydrocarbonProductionArgentina/PRODUCTIONSUM" target = "blank"><h4>Tableau</h4>
 													<h6>Time Series with Geolocation Dashboard</h6>
-													<p>Dashboard with Oil, Gas and Water production of Argentinian unconventional wells with geolocation and concession areas map. Dynamic filters of basin, province, formation, company, field name and well are set, with its info labeled.</p>
+													<p>Dashboard with Oil, Gas and Water production of Argentinian unconventional wells with geolocation and concession areas map. Dynamic filters of basin, province, formation, company, field name and well are set, with its info labeled.</p></a>
 												</div>
 											</article>
 
 											<article>
 												<a href="https://public.tableau.com/app/profile/sebagrasso/viz/UnconventionalHydrocarbonStatisticsArgentina/GENERALSTATS" target = "blank" class="image"><img src="images/dash2.png" alt="" /></a>
 												<div class="inner">
-													<a href="https://public.tableau.com/app/profile/sebagrasso/viz/UnconventionalHydrocarbonStatisticsArgentina/GENERALSTATS" target = "blank"><h4>Tableau</h4></a>
+													<a href="https://public.tableau.com/app/profile/sebagrasso/viz/UnconventionalHydrocarbonStatisticsArgentina/GENERALSTATS" target = "blank"><h4>Tableau</h4>
 													<h6>General Statistics</h6>
-													<p>Dashboard with statistics of number of wells, trajectories, number of fractures and a pareto chart per field and company. Includes a geolocation map showing wells coloured by depth.</p>
+													<p>Dashboard with statistics of number of wells, trajectories, number of fractures and a pareto chart per field and company. Includes a geolocation map showing wells coloured by depth.</p></a>
 												</div>
 											</article>
 										</div>
@@ -237,40 +271,6 @@
 									<a href="#work" class="button icon solid solo fa-arrow-up scrolly">Back to Work</a>
 								</section>
 
-								<section id="ML">
-									<div class="container">
-										<h2>Machine Learning</h2>
-										<div class="features">
-											<article>
-												<a href="#" target = "blank" class="image"><img src="images/pic01.png" alt="" /></a>
-												<h4>Algoritmic Linear Regression</h4></a>
-												<p>This is a tiny part of a huge algorithm for trading in stock market. The global functioning is to 
-													download/update stock prices from some finance api, of a long list of tickers (the most valuables companies in terms of estimated
-													market cap) and understand them through correlations, traditional tech analysis, ML and NLP from news and social net, 
-													in order to make decisions to improve investments.
-													<br>
-													The fragment that I am sharing in this case is an algorithm that automatically makes the following operations:
-													<ul>
-														<li>Feature selection using kbest, and correlations with different pearson coefficients.</li>
-														<li>Scaling transformations (or not): StandardScaler, MinMaxScaler, Normalizer and no scaling.</li>
-														<li>ML Regression models instatiation (Linear, Ridge, BayesianRidge, Lasso, ElasticNet, SVR, SGD, DesicionTree, 
-															RandomForest, Polynomic and Kneighbors).</li>
-														<li>Hyper parameters optimization using GridSearchCV.</li>
-														<li>Train-Test proportion optimization.</li>
-														<li>ML Regression models training and scoring.</li>
-														<li>Report results.</li>
-													</ul>													
-													The image below is a <b>dynamic chart</b> showing the behaviour of most of regression models from Sklearn on this dataset.
-													Bubble sizes represents the number of features (correlated tickers with target) used to explain the target ticker.
-													<br>
-													<i>Note: Single click on legend toggles on-off that model. Double click selects only one model or resets filters.</i></p>
-												<iframe src="notebooks/algo_ml_reg/RegML_algo_results.html" alignment = "center" width="780" height="620"></iframe>
-											</article>
-										</div>
-									</div>
-									<a href="#work" class="button icon solid solo fa-arrow-up scrolly">Back to Work</a>									
-								</section>
-								
 								<section id="EMBA">
 									<div class="container">
 										<h2>Executive MBA</h2>
@@ -278,44 +278,44 @@
 										<article>
 											<a href="pdf/SebastianGrasso_M1A1_NESPRESSO.pdf" target = "blank" class="image"><img src="images/nespresso.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/SebastianGrasso_M1A1_NESPRESSO.pdf" target = "blank"><h4>Strategy | Nespresso</h4></a>
-												<p>Pestel | SWOT | VRIO | Company external analysis .</p>
+												<a href="pdf/SebastianGrasso_M1A1_NESPRESSO.pdf" target = "blank"><h4>Strategy | Nespresso</h4>
+												<p>Pestel | SWOT | VRIO | Company external analysis .</p></a>
 											</div>
 										</article>
 										<article>
 											<a href="pdf/SebastianGrasso_M1A2_PROSEGUR.pdf" target = "blank" class="image"><img src="images/prosegur.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/SebastianGrasso_M1A2_PROSEGUR.pdf" target = "blank"><h4>Strategy | Prosegur</h4></a>
-												<p>Internationalization Risks | Internationalization Strategy.</p>
+												<a href="pdf/SebastianGrasso_M1A2_PROSEGUR.pdf" target = "blank"><h4>Strategy | Prosegur</h4>
+												<p>Internationalization Risks | Internationalization Strategy.</p></a>
 											</div>
 										</article>
 										<article>
 											<a href="pdf/SebastianGrasso_M2A1_POMPEII.pdf" target = "blank" class="image"><img src="images/pompeii.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/SebastianGrasso_M2A1_POMPEII.pdf" target = "blank"><h4>Marketing | Pompeii Brand</h4></a>
-												<p>Digital Marketing | Positioning Map | STP Model.</p>
+												<a href="pdf/SebastianGrasso_M2A1_POMPEII.pdf" target = "blank"><h4>Marketing | Pompeii Brand</h4>
+												<p>Digital Marketing | Positioning Map | STP Model.</p></a>
 											</div>
 										</article>
 										<article>
 											<a href="pdf/SebastianGrasso_M2A2_AIRBNB.pdf" target = "blank" class="image"><img src="images/airbnb.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/SebastianGrasso_M2A2_AIRBNB.pdf" target = "blank"><h4>Marketing | Airbnb</h4></a>
-												<p>Marketing MIX | Distribution channels | CRM | Dashboard.</p>
+												<a href="pdf/SebastianGrasso_M2A2_AIRBNB.pdf" target = "blank"><h4>Marketing | Airbnb</h4>
+												<p>Marketing MIX | Distribution channels | CRM | Dashboard.</p></a>
 											</div>
 										</article>
 										<article>
 											<a href="pdf/SebastianGrasso_M3A1_AMAZON.pdf" target = "blank" class="image"><img src="images/amazon.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/SebastianGrasso_M3A1_AMAZON.pdf" target = "blank"><h4>Corporate Finances | Amazon</h4></a>
-												<p>Balances | Ratios | Financial statements .</p>
+												<a href="pdf/SebastianGrasso_M3A1_AMAZON.pdf" target = "blank"><h4>Corporate Finances | Amazon</h4>
+												<p>Balances | Ratios | Financial statements .</p></a>
 											</div>
 										</article>
 										<article>
 											<a href="pdf/SebastianGrasso_M3A2_CERVEZASLACAÑA.pdf" target = "blank" class="image"><img src="images/lacaña.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/SebastianGrasso_M3A2_CERVEZASLACAÑA.pdf" target = "blank"><h4>Corporate Finances | Cervezas Lacaña</h4></a>
+												<a href="pdf/SebastianGrasso_M3A2_CERVEZASLACAÑA.pdf" target = "blank"><h4>Corporate Finances | Cervezas Lacaña</h4>
 												<h6>(fictitious company)</h6>
-												<p> WACC | Investment viability analysis | Financial statements | Dashboard.</p>
+												<p> WACC | Investment viability analysis | Financial statements | Dashboard.</p></a>
 											</div>
 										</article>																		
 										</div>
@@ -330,19 +330,19 @@
 										<article>
 											<a href="pdf/IDENTIFICACIÓN_EXPLOTACIÓN_SWEET_SPOTS.pdf" target = "blank" class="image"><img src="images/conexplo.png" alt="" /></a>
 											<div class="inner">
-												<a href="pdf/IDENTIFICACIÓN_EXPLOTACIÓN_SWEET_SPOTS.pdf" target = "blank"><h4>Conexplo 2014 Paper</h4></a>
+												<a href="pdf/IDENTIFICACIÓN_EXPLOTACIÓN_SWEET_SPOTS.pdf" target = "blank"><h4>Conexplo 2014 Paper</h4>
 												<p>The objective of this work was to outline the reservoir static and dynamic model of a low permeability
 													and high water saturation field to define the current field development and exploitation, analyzing
-													also secondary recovery by injection of water. </p>
+													also secondary recovery by injection of water.</p></a>
 											</div>
 										</article>
 										
 										<article>
 											<a href="https://public.tableau.com/views/UnconventionalHydrocarbonAnalysisArgentina/ANALYSIS?:language=en-US&:display_count=n&:origin=viz_share_link" target = "blank" class="image"><img src="images/dash3.png" alt="" /></a>
 											<div class="inner">
-												<a href="https://public.tableau.com/views/UnconventionalHydrocarbonAnalysisArgentina/ANALYSIS?:language=en-US&:display_count=n&:origin=viz_share_link" target = "blank"><h4>Tableau</h4></a>
+												<a href="https://public.tableau.com/views/UnconventionalHydrocarbonAnalysisArgentina/ANALYSIS?:language=en-US&:display_count=n&:origin=viz_share_link" target = "blank"><h4>Tableau</h4>
 												<h6>Oil Production analysis</h6>
-												<p>Specific charts with technics to understand physical behaviour from production of wells, regarding their reservoir and location.</p>
+												<p>Specific charts with technics to understand physical behaviour from production of wells, regarding their reservoir and location.</p></a>
 											</div>
 										</article>	
 										</div>
