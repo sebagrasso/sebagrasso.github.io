@@ -2500,7 +2500,7 @@ input, select, textarea {
 				display: inline-block;
 				margin-top: 20px;
 				vertical-align: middle;
-				width: 50%;
+				width: 60%;
 			}
 	
 				.features article .inner_contact > :last-child {
@@ -3008,6 +3008,14 @@ button,
 				font-size: 12pt;
 			}
 
+			.features article .inner_contact {
+				/* display: inline-block; */
+				margin-top: 20px;
+				vertical-align: middle;
+				align-items: center;
+				width: 50%;
+			}
+
 		/* Image */
 
 			.image.left, .image.right {
@@ -3233,10 +3241,11 @@ button,
 			}
 
 			.features article .inner_contact {
-				display: inline-block;
+				/* display: inline-block; */
 				margin-top: 20px;
 				vertical-align: middle;
-				width: 20%;
+				align-items: center;
+				width: 30%;
 			}
 
 			iframe {
@@ -3336,6 +3345,14 @@ button,
 
 			iframe {
 				max-width: 340px;
+			}
+
+			.features article .inner_contact {
+				/* display: inline-block; */
+				margin-top: 20px;
+				vertical-align: middle;
+				align-items: center;
+				width: 30%;
 			}
 
 		/* List */
